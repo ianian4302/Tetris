@@ -5,7 +5,10 @@ class BlockType:
     BLUE = 2
     ORANGE = 3
     YELLOW = 4
-    BLOCKMAX = 5
+    PURPLE = 5
+    LIGHTGREEN = 6
+    NAVY = 7
+    BLOCKMAX = 8
 
 class GameState:
     RUNNING = 0
@@ -22,6 +25,9 @@ BLOCK_RES = {
     BlockType.BLUE: 'assests/blue_block.png',
     BlockType.ORANGE: 'assests/orange_block.png',
     BlockType.YELLOW: 'assests/yellow_block.png',
+    BlockType.PURPLE: 'assests/purple_block.png',
+    BlockType.LIGHTGREEN: 'assests/lightgreen_block.png',
+    BlockType.NAVY: 'assests/navy_block.png',
 }
 
 ICON = 'assests/icon.png'
